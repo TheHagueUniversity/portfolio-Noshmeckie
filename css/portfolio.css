@@ -66,7 +66,8 @@ p {
 	padding-bottom: 0;
 }
 
-#showcase .content-wrap {
+#showcase .content-wrap,
+#section-a .content-wrap {
 	padding: 0 1.5em;
 }
 
@@ -102,6 +103,68 @@ p {
 
 /* --- Section C ---*/
 
-#section-b {
-	padding: 2em 1em 1em;
+#section-c {
+	background: #fff;
+	color: #333;
+	padding: 2em;
+}
+
+/* --- Section D ---*/
+
+#section-d .box {
+	padding: 2em;
+	color-profile: #fff;
+}
+
+#section-d .box:first-child {
+	background: #fff;
+}
+
+/* --- Footer ---*/
+
+#main-footer {
+	padding: 2em;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+#main-footer a {
+	color: #2690d4;
+	text-decoration: none;
+}
+
+/* --- Media Queries ---*/
+/*
+@media(min-width: 700px) {
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+	}
+	.content-wrap, 
+	#section-b ul {
+		grid-column: 2/4;
+	}
+
+	#section-a .content-wrap {
+		columns: 2;
+		column-gap: 2em;
+	}
+
+	#section-a .content-text p {
+		padding-top: 0;
+	}
+
+	.box,
+	#main-footer div{
+		grid-column: span 2;
+	}
+
+	#section-b ul {
+		display: flex;
+	}
+
+	#section-b li {
+		width: 31%;
+	}
 }
