@@ -46,19 +46,7 @@ p {
 #showcase {
 	min-height: 450px;
 	color: #fff;
-	text-align: center;
-}
-
-#showcase .bg-image {
-	position: absolute;
-	background-image: url(/images/background.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 450px;
-	z-index: -1;
-	opacity: 0.4;
+	text-align:  center;
 }
 
 #showcase h1 {
@@ -113,19 +101,22 @@ p {
 
 #section-d .box {
 	padding: 2em;
-	color-profile: #fff;
+	color: #fff;
+	color-profile: #333;
 }
 
-#section-d .box:first-child {
-	background: #fff;
+#section-d .box2 {
+	padding: 2em;
+	color: #fff;
+	color-profile: #333;
 }
 
 /* --- Footer ---*/
 
 #main-footer {
 	padding: 2em;
-	background: #000;
-	color: #fff;
+	background: #fff;
+	color: #333;
 	text-align: center;
 }
 
@@ -135,18 +126,14 @@ p {
 }
 
 /* --- Media Queries ---*/
-/*
+
 @media(min-width: 700px) {
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
 	}
-	.content-wrap, 
-	#section-b ul {
-		grid-column: 2/4;
-	}
 
-	#section-a .content-wrap {
+	#section-a .content-text {
 		columns: 2;
 		column-gap: 2em;
 	}
@@ -155,16 +142,30 @@ p {
 		padding-top: 0;
 	}
 
-	.box,
-	#main-footer div{
+	.content-wrap, 
+	#section-b ul {
+		grid-column: 2/4;
+	}
+
+	.footer {
+		grid-column: 2/4;
+	}
+
+	.box {
+		grid-column: span 2;
+	}
+
+	.box2 {
 		grid-column: span 2;
 	}
 
 	#section-b ul {
 		display: flex;
+		justify-content: space-around;
 	}
 
 	#section-b li {
 		width: 31%;
 	}
+	
 }
