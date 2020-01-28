@@ -105,12 +105,6 @@ p {
 	color-profile: #333;
 }
 
-#section-d .box2 {
-	padding: 2em;
-	color: #fff;
-	color-profile: #333;
-}
-
 /* --- Footer ---*/
 
 #main-footer {
@@ -152,11 +146,7 @@ p {
 	}
 
 	.box {
-		grid-column: span 2;
-	}
-
-	.box2 {
-		grid-column: span 2;
+		grid-column: span 2/4;
 	}
 
 	#section-b ul {
