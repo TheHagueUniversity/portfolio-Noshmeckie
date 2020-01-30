@@ -74,7 +74,7 @@ p {
 	color: #333;
 }
 
-/* --- HOME PAGE ---*/
+/* --- ABOUT PAGE ---*/
 
 /* --- Header Showcase ---*/
 
@@ -82,19 +82,18 @@ p {
 	background-image: url(../images/background.png);
 	background-repeat: none;
 	width: 100%;
-	height:450px;
+	height:100px;
 	z-index: -1;
-	min-height: 450px;
+	min-height: 100px;
 	color: #fff;
 	text-align: center;
 }
 
 #showcase h1 {
-	padding-top: 100px;
+	padding-top: 0;
 	padding-bottom: 0;
 }
 
-#showcase .content-wrap,
 #section-a .content-wrap {
 	padding: 0 1.5em;
 }
@@ -114,36 +113,6 @@ p {
 	padding: 1em;
 	width: 300px;
 	height: 300px;
-}
-
-/* --- Section B ---*/
-
-#section-b {
-	padding: 2em 1em 1em;
-}
-
-#section-b ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-#section-b li {
-	margin-bottom: 1em;
-	background: #fff;
-	color: #333;
-}
-
-.card-content {
-	padding: 1.5em;
-}
-
-/* --- Section C ---*/
-
-#section-c {
-	background: #fff;
-	color: #333;
-	padding: 2em;
 }
 
 /* --- Section D ---*/
@@ -208,8 +177,3 @@ p {
 	}
 	
 }
-
-/* --- ABOUT PAGE ---*/
-
-/* --- Showcase ---*/
-
