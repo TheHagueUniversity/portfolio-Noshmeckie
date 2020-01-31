@@ -116,6 +116,10 @@ p {
 	height: 300px;
 }
 
+.content-title {
+	font-size: 30;
+}
+
 /* --- Section B ---*/
 
 #section-b {
@@ -208,8 +212,3 @@ p {
 	}
 	
 }
-
-/* --- ABOUT PAGE ---*/
-
-/* --- Showcase ---*/
-
