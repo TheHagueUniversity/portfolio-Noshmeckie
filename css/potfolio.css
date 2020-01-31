@@ -74,7 +74,47 @@ p {
 	color: #333;
 }
 
-/* --- HOME PAGE ---*/
+/* --- PORTFOLIO PAGE ---*/
+
+.project{
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	object-fit: cover;
+	overflow: hidden;
+	position: relative;
+	border: 5px solid #333;
+	height: 450px;
+}
+.project img{
+	flex-shrink: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+	width: 100%;
+	opacity: 1;
+	object-fit: cover;
+}
+.project:hover img{
+	opacity: 0.5;
+	transition: 0.2s ease;
+	transform: scale(1.2);
+}
+.project .project-title {
+  	opacity: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	transition: 0.2s ease;
+	background-color: #333;
+  	color: white;
+  	font-size: 16px;
+  	padding: 16px 32px;
+	text-align: center;
+}
+.project:hover .project-title {
+  	opacity: 1;
+}
 
 /* --- Header Showcase ---*/
 
@@ -82,15 +122,15 @@ p {
 	background-image: url(../images/background.png);
 	background-repeat: none;
 	width: 100%;
-	height:450px;
+	height:100px;
 	z-index: -1;
-	min-height: 450px;
+	min-height: 100px;
 	color: #fff;
 	text-align: center;
 }
 
 #showcase h1 {
-	padding-top: 100px;
+	padding-top: 0;
 	padding-bottom: 0;
 }
 
@@ -105,6 +145,7 @@ p {
 	background: #eaeaea;
 	color: #333;
 	padding-bottom: 2em;
+}
 
 .project {
 	display: flex;
@@ -115,13 +156,6 @@ p {
 	position: relative;
 	border: 5px solid #F5F5F5;
 	height: 450px;
-
-/* --- Section D ---*/
-
-#section-d .box {
-	padding: 2em;
-	color: #fff;
-	color-profile: #333;
 }
 
 /* --- Footer ---*/
@@ -147,7 +181,7 @@ p {
 	}
 
 	#section-a .content-text {
-		columns: 2;
+		columns: 1;
 		column-gap: 2em;
 	}
 
@@ -178,8 +212,3 @@ p {
 	}
 	
 }
-
-/* --- ABOUT PAGE ---*/
-
-/* --- Showcase ---*/
-
