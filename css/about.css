@@ -54,6 +54,10 @@ h1 {
 	font-size: 2em;
 }
 
+h3 {
+	color: grey;
+}
+
 p {
 	margin: 0;
 	padding: 1em 0;
@@ -113,6 +117,22 @@ p {
 	padding: 1em;
 	width: 300px;
 	height: 300px;
+}
+
+/* --- Section B ---*/
+
+#section-b {
+	padding: 2em;
+	color: #fff;
+	color-profile: #333;
+}
+
+/* --- Section C ---*/
+
+#section-c {
+	background: #eaeaea;
+	color: #333;
+	padding-bottom: 2em;
 }
 
 /* --- Section D ---*/
